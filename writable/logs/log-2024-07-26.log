@@ -1,0 +1,56 @@
+CRITICAL - 2024-07-26 17:05:53 --> ErrorException: Undefined variable $clientes
+[Method: GET, Route: nuevo_cliente]
+in APPPATH\Views\clientes_nuevos.php on line 42.
+ 1 APPPATH\Views\clientes_nuevos.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $clientes', 'C:\\xampp\\htdocs\\fs2024\\bd_hotel\\app\\Views\\clientes_nuevos.php', 42)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fs2024\\bd_hotel\\app\\Views\\clientes_nuevos.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('clientes_nuevos', [], true)
+ 5 APPPATH\Controllers\ClientesController.php(17): view('clientes_nuevos')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ClientesController->nuevoCliente()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClientesController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-26 17:22:48 --> ErrorException: Array to string conversion
+[Method: GET, Route: buscar_cliente/33]
+in APPPATH\Views\form_modificar_cliente.php on line 46.
+ 1 APPPATH\Views\form_modificar_cliente.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\fs2024\\bd_hotel\\app\\Views\\form_modificar_cliente.php', 46)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fs2024\\bd_hotel\\app\\Views\\form_modificar_cliente.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('form_modificar_cliente', [], true)
+ 5 APPPATH\Controllers\ClientesController.php(48): view('form_modificar_cliente', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ClientesController->buscarCliente('33')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClientesController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-26 17:26:09 --> ErrorException: Array to string conversion
+[Method: GET, Route: buscar_cliente/33]
+in APPPATH\Views\form_modificar_cliente.php on line 46.
+ 1 APPPATH\Views\form_modificar_cliente.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\fs2024\\bd_hotel\\app\\Views\\form_modificar_cliente.php', 46)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fs2024\\bd_hotel\\app\\Views\\form_modificar_cliente.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('form_modificar_cliente', [], true)
+ 5 APPPATH\Controllers\ClientesController.php(48): view('form_modificar_cliente', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ClientesController->buscarCliente('33')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClientesController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-26 17:28:08 --> ErrorException: Undefined array key "dereccion"
+[Method: GET, Route: buscar_cliente/33]
+in APPPATH\Views\form_modificar_cliente.php on line 66.
+ 1 APPPATH\Views\form_modificar_cliente.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "dereccion"', 'C:\\xampp\\htdocs\\fs2024\\bd_hotel\\app\\Views\\form_modificar_cliente.php', 66)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fs2024\\bd_hotel\\app\\Views\\form_modificar_cliente.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('form_modificar_cliente', [], true)
+ 5 APPPATH\Controllers\ClientesController.php(48): view('form_modificar_cliente', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ClientesController->buscarCliente('33')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClientesController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
