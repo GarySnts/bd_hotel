@@ -9,8 +9,8 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </head>
 
-<body class="container">
-    <nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
+<body class="container bg-black">
+    <nav class="navbar navbar-expand-lg bg-danger" data-bs-theme="dark">
         <div class="container-fluid">
             <a class="navbar-brand" href="http://localhost/fs2024/db_telefonica/public/">Raiz</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -39,7 +39,7 @@
     <br><br>
     <h1>Clientes</h1>
     <br>
-    <table class="table table-border table-success">
+    <table class="table table-border table-primary">
         <thead>
             <tr>
                 <th>Cliente Id</th>

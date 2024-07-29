@@ -51,7 +51,7 @@ class ClientesController extends BaseController
     public function modificarCliente(){
 
         $datos=[
-
+            'cliente_id' =>$this->request->getVar('txtId'),
             'nombre'=>$this->request->getVar('txtNombre'),
             'apellido'=>$this->request->getVar('txtApellido'),
             'nit'=>$this->request->getVar('txtNit'),
@@ -62,7 +62,7 @@ class ClientesController extends BaseController
         ];
 
         $clientes= new ClientesModel();
-        $clientes->update($datos['txtId'],$datos);
+        $clientes->update($datos['cliente_id'],$datos);
         return redirect()->route('ver_clientes');
 
     }
